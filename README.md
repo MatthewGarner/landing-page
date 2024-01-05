@@ -1,5 +1,9 @@
 # Starter project - build website to a design
 
+{% note %}
+**Note 2024-01-05:** This is still work in progress!
+{% endnote %}
+
 ## Aims 
 Build a simple static webpage according a pre-determined design - frief from [The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page)
 
