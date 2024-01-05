@@ -1,4 +1,4 @@
-#Starter project - build website to a design
+# Starter project - build website to a design
 
 -> Brief from [The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page) 
 
