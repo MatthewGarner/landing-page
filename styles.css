@@ -1,6 +1,10 @@
 body {
-    font-family: roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: medium;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 a {
@@ -8,13 +12,25 @@ a {
     color: #E5E7EB;
 }
 
-.header, .hero-area {
-    background-color: #1F2937;
-    color: #E5E7EB;
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
 }
 
+button {
+    display: inline-block;
+}
+
+.cta .cta-button {
+    color: #3882F6;
+}
+
+
 .hero-image {
-    max-width: 30vw;
+    flex-basis: 100px;
+    max-height: 300px;
 }
 
 .icon {
@@ -24,5 +40,35 @@ a {
 
 .flex-container {
     display: flex;
+    flex: 1;
 }
+
+.header {
+    justify-content: space-between;
+   
+}
+
+.header-links {
+    justify-content: flex-end;
+    gap: 16px;
+    
+}
+
+.hero-area {
+    justify-content: center;
+    margin-top: 50px;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.hero-block {
+    flex-direction: column;
+    width: 30vw;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.hero-block
 
