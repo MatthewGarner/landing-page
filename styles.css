@@ -115,6 +115,7 @@ button {
     flex-grow: 1;
     flex-basis: 150px;
     max-width: 150px;
+    gap: 8px;
 }
 
 .quote {
